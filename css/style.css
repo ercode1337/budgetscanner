@@ -1,0 +1,118 @@
+html {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    height: 100%;
+    background: linear-gradient(45deg, rgb(110, 20, 179), rgb(0, 39, 97));
+    max-height: 100%;
+    max-width: 100%;
+    font-family: "Montserrat";
+    display: flex;
+    justify-content: center;
+  }
+
+  #title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color: #FFFFFF;
+    height: 100%;
+    position: relative;
+  }
+
+  #logo {
+    width: 275px;
+    height: 55px;
+    flex-shrink: 1;
+  }
+
+  .container {
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #d1d0d0;
+  }
+
+  .container #header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 10%;
+    background: linear-gradient(45deg, rgb(110, 20, 179), rgb(0, 39, 97));
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+  }
+
+  nav li {
+    gap: 10px;
+  }
+
+  nav a:link {
+    text-decoration-line: none;
+  }
+
+  nav a {
+    color: white;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #sectionSearch {
+    margin-top: 8px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    height: 5%;
+    background-color: rgb(239, 232, 238);
+    flex-direction: row;
+    margin: 10px;
+    border-radius: 8px;
+  }
+
+  #sectionSearch #search {
+    display: flex;
+    gap: 15px;
+  }
+
+  .searchClass {
+    height: 40px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(0, 39, 97);
+    padding-left: 10px;
+  }
+
+  .searchClass::placeholder {
+    padding: 15px;
+    margin-left: 15px;
+  }
+
+  #sectionSearch button {
+    background: linear-gradient(45deg, rgb(110, 20, 179), rgb(0, 39, 97));
+    font-weight: 700;
+    border-radius: 10px;
+    height: 45px;
+    width: 100px;
+    color: #FFFFFF;
+    border-style: none;
+  }
+
+  #search #passengerSearch {
+    width: 90px;
+  }
